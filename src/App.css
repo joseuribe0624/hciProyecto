@@ -7,22 +7,15 @@
 }
 
 .box{
-  margin-top: 75px;
-  border-top:3px solid #F8CD00;
+  margin-top: 55px;
+  border-top:4px solid #F8CD00;
   background-color: #FFF;
   width:100%;
   margin-bottom: 100px;
-  margin-left: 20px;
 }
 
 .top{
   margin-top: 40px;
-}
-
-
-.box2{
-  background-color: #FFF;
-  width: 9%;
 }
 
 h2{
@@ -54,7 +47,7 @@ input{
   height: 140px;
 }
 .container2{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-right:20px;
   margin-left: 15px;
 }
