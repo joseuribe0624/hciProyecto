@@ -9,7 +9,7 @@ var sectionStyle = {
   backgroundImage: "url(" + Background + ")"
 };
 
-class App extends Component {
+class Login extends Component {
   render() {
     return (
     <div className="back">
@@ -58,4 +58,4 @@ class App extends Component {
     );
   }
 }
-export default App;
+export default Login;

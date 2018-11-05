@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import {Switch} from 'react-router';
 import Login from './components/Login';
-
+import Subjects from './components/Subjects';
 class App extends Component {
     
   render() {
@@ -11,6 +11,8 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" render={({history}) => <Login history={history}/>
+              }></Route>
+             <Route exact path="/subjects" render={({history}) => <Subjects history={history}/>
               }></Route>
           </Switch>
         </BrowserRouter>
