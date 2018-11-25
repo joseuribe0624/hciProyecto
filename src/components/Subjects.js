@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Subjects.css';
 import user from "./assets/user.png";
 import notification from "./assets/notification.png"
+import * as firebase from 'firebase';
 
 class subjects extends Component {
   constructor(props) {
@@ -33,6 +34,10 @@ class subjects extends Component {
         }
       ]
     }
+
+   // componentDidMount(){
+   //   const rootRef = firebase.database().ref().child('react');
+   // }
   }
   render() {
     return (
