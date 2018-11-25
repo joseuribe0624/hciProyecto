@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from './assets/logoJaveriana.jpg';
 import './Login.css';
-import Background from './assets/javeriana.jpg';
+// import Background from './assets/javeriana.jpg';
 
-var sectionStyle = {
-  width: "100%",
-  height: "400px",
-  backgroundImage: "url(" + Background + ")"
-};
+// var sectionStyle = {
+//   width: "100%",
+//   height: "400px",
+//   backgroundImage: "url(" + Background + ")"
+// };
 
 class Login extends Component {
   render() {
@@ -22,7 +22,7 @@ class Login extends Component {
                 <div className="col-md-8">
                   <div className="row top">
                     <div className="col-sm-5">
-                        <img src={logo} className="image"/>
+                        <img alt="Javeriana Cali" src={logo} className="image"/>
                     </div>
                     <div className="vl"></div>
                     <div className="col-sm">

@@ -1,0 +1,29 @@
+.card {
+  background-color: #2C5697;
+  border-color: #2C5697;
+  color: #FFF;
+  border-radius: 5px;
+  font-size: 1.1em;
+  margin: 0 15px;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card .col{
+  padding: 15px;
+}
+
+.card.card-light {
+  background-color: #6182C8;
+  border-color: #6182C8;
+}
+
+.row.append{
+  margin-left: 5px;
+}

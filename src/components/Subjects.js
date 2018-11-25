@@ -9,7 +9,7 @@ class subjects extends Component {
     return (
     <div className="back">
       <nav className="navbar navbar-light backNav" >
-        <a className="title" href="#">
+        <a className="title" href={"#"}>
           Memo
         </a>
         <div>
