@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 50px;
+}
+.footer__brand {
+  height: 200px;
+}
+
+.info {
+  font-size: 0.9em;
+}
+
+.links {
+  font-size: 1em;
+  font-weight: 600;
+  color: #002E68;
+}

@@ -4,7 +4,16 @@
 
 .title{
   color:#FFF;
-  
   font-weight: bold;
   font-size: 30px;
+}
+.dropdown-menu{
+  right: 30px;
+  left: auto;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+.dropdown-toggle::after{
+  vertical-align: -0.5em;
+  margin-left: 1em;
 }
